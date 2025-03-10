@@ -28,6 +28,9 @@ Before starting the assignment, ensure you have the following software installed
    - If you prefer using Docker for setting up Spark, ensure Docker and Docker Compose are installed.
    - [Docker Installation Guide](https://docs.docker.com/get-docker/)
    - [Docker Compose Installation Guide](https://docs.docker.com/compose/install/)
+5. **HDFS on Docker** (Optional):
+   - [HDFS, Hive, Hue,Spark](https://github.com/Wittline/apache-spark-docker)
+   - [HDFS on Spark](https://github.com/big-data-europe/docker-hadoop-spark-workbench)
 
 ## **Setup Instructions**
 
@@ -246,27 +249,3 @@ A comparative analysis showing average Engagement Levels across Job Titles, high
 | Support     | 2.8                |
 
 ---
-
-## **Grading Criteria**
-
-Your assignment will be evaluated based on the following criteria:
-
-- **Question 1**: Correct identification of departments with over 50% high satisfaction and engagement (1 mark).
-- **Question 2**: Accurate analysis of employees who feel valued but didn’t suggest improvements, including proportion (1 mark).
-- **Question 3**: Proper comparison of engagement levels across job titles and correct identification of the top-performing job title (1 mark).
-
-**Total Marks: 3**
-
----
-
-## **Submission Guidelines**
-
-- **Code**: Submit all your PySpark scripts located in the `src/` directory.
-- **Report**: Include a report summarizing your findings for each task. Ensure that your report is well-structured, with clear headings and explanations.
-- **Data**: Ensure that the `employee_data.csv` used for analysis is included in the `data/` directory or provide a script for data generation if applicable.
-- **Format**: Submit your work in a zipped folder containing all necessary files.
-- **Deadline**: [Insert Deadline Here]
-
----
-
-Good luck, and happy analyzing!
